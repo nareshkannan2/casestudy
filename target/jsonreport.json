@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "The one where the user moves to cart without adding any item in it",
+        "description": "",
+        "id": "display-cart-icon-without-adding-to-cart;the-one-where-the-user-moves-to-cart-without-adding-any-item-in-it",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18140515800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "lalitha has registered in to TestMeApp",
+            "match": {
+              "location": "Cs4.lalitha_has_registered_in_to_TestMeApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1630333600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "lalitha search a particular product like headphones",
+            "match": {
+              "location": "Cs4.lalitha_search_a_particular_product_like_headphones()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16306900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "try to proceed to payment without adding any item in the cart",
+            "match": {
+              "location": "Cs4.try_to_proceed_to_payment_without_adding_any_item_in_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 216159500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "TestMeApp doesn\u0027t display the cart icon",
+            "match": {
+              "location": "Cs4.testmeapp_doesn_t_display_the_cart_icon()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Display cart icon without adding to cart",
+    "description": "",
+    "id": "display-cart-icon-without-adding-to-cart",
+    "keyword": "Feature",
+    "uri": "src/main/resources/Folder/cs4.feature",
+    "tags": []
+  }
+]
